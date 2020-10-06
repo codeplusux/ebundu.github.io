@@ -51,7 +51,6 @@ ul li {
 /*** DETAILS ***/
 
 .mainInfo {
-  background-color: rgba(255, 255, 255, 0.577);
   width: 100%;
   height: 90%;
   display: flex;
@@ -62,16 +61,7 @@ ul li {
   width: 50%;
 }
 
-.detail {
-  background-color: rgba(120, 241, 189, 0.577);
-}
-
-.phone {
-  background-color: rgba(225, 241, 120, 0.577);
-}
-
 .generalInfo {
-  background-color: rgba(255, 255, 255, 0.194);
   width: 100%;
   height: 10%;
 }
@@ -81,6 +71,7 @@ ul li {
 h1,
 h2 {
   font-family: "Nunito", sans-serif;
+  font-weight: 800;
 }
 
 /*** BREACK POINTS ***/
@@ -107,7 +98,8 @@ h2 {
     flex-wrap: wrap;
   }
 
-  .detail {
+  .detail,
+  .phone {
     width: 100%;
   }
 }
@@ -135,7 +127,8 @@ h2 {
     flex-wrap: wrap;
   }
 
-  .detail {
+  .detail,
+  .phone {
     width: 100%;
   }
 }
@@ -163,7 +156,8 @@ h2 {
     flex-wrap: wrap;
   }
 
-  .detail {
+  .detail,
+  .phone {
     width: 100%;
   }
 }
