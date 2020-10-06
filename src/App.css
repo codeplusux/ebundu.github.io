@@ -54,6 +54,7 @@ ul li {
   width: 100%;
   height: 90%;
   display: flex;
+  align-items: center;
 }
 
 .detail,
@@ -72,13 +73,34 @@ ul li {
 }
 
 .brand {
-  border: 1px solid #fff;
   width: 255px;
   height: 104px;
 }
 
-.brand h1 {
+.brand .float-left {
+  padding-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+.brand .float-right {
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+
+.brand .float-right h1 {
   font-size: 24px;
+}
+
+.mt8 {
+  margin-top: -8px;
+}
+
+.mt18 {
+  margin-top: -19px;
+}
+
+.stores li a {
+  width: 130px;
 }
 
 /*** FONTS ***/

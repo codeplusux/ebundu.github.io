@@ -39,13 +39,13 @@ function App() {
               </div>
               <div className="float-right">
                 <h1>ebundu</h1>
-                <p>Mejor comunidad</p>
-                <p>beta</p>
+                <p className="mt8">Mejor comunidad</p>
+                <p className="mt18">beta</p>
               </div>
             </div>
             <h2>Comparte actualizaciones con l@s vecin@s de tu comunidad.</h2>
             <p>Descarga ya la aplicación desde tu tienda favorita.</p>
-            <ul>
+            <ul className="stores">
               <li>
                 <a
                   href="https://apps.apple.com/cl/app/ebundu/id1525399985?l=en"
