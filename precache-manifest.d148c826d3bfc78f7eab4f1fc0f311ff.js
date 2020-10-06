@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f464185dc77ec2705444c2b734ae55f7",
+    "revision": "a7634c670502f9650b1927580412ca68",
     "url": "/ebundu-landing/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ebundu-landing/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "e5199528bc9ea2f4cc80",
-    "url": "/ebundu-landing/static/css/main.1d6646c4.chunk.css"
+    "revision": "cc6a812185e7b0c9c7c8",
+    "url": "/ebundu-landing/static/css/main.401abcaf.chunk.css"
   },
   {
     "revision": "3ad12ba912b8ab1b8ad1",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ebundu-landing/static/js/2.44660e85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5199528bc9ea2f4cc80",
-    "url": "/ebundu-landing/static/js/main.bc59c2c3.chunk.js"
+    "revision": "cc6a812185e7b0c9c7c8",
+    "url": "/ebundu-landing/static/js/main.1a137e4c.chunk.js"
   },
   {
     "revision": "da3a0cc84801acf2fc3f",
