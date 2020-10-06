@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
-}
+/***************************
+  Linkedin: uxpablo 
+  Github: codeplusux  
+****************************/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*** GENERAL ***/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700;800&display=swap");
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  margin: 0;
+  padding: 0;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #6e4ae3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ul li {
+  list-style: none;
+}
+
+/*** LAYOUT ***/
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+#neighborhood,
+#content {
+  border: 1px solid rgb(148, 147, 147);
+}
+
+#neighborhood {
+  display: flex;
+  width: 20%;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 79.5%;
+}
+
+/*** DETAILS ***/
+
+.mainInfo {
+  background-color: rgba(255, 255, 255, 0.577);
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.detail,
+.phone {
+  width: 50%;
+}
+
+.detail {
+  background-color: rgba(120, 241, 189, 0.577);
+}
+
+.phone {
+  background-color: rgba(225, 241, 120, 0.577);
+}
+
+.generalInfo {
+  background-color: rgba(255, 255, 255, 0.194);
+  width: 100%;
+  height: 10%;
+}
+
+/*** FONTS ***/
+
+h1,
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+
+/*** BREACK POINTS ***/
+
+@media (max-width: 575.98px) {
+  #main {
+    flex-wrap: wrap-reverse;
   }
-  to {
-    transform: rotate(360deg);
+
+  #neighborhood,
+  #content {
+    width: 100%;
   }
+
+  #neighborhood {
+    height: 20%;
+  }
+
+  #content {
+    height: 79%;
+  }
+
+  .mainInfo {
+    flex-wrap: wrap;
+  }
+
+  .detail {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #main {
+    flex-wrap: wrap-reverse;
+  }
+
+  #neighborhood,
+  #content {
+    width: 100%;
+  }
+
+  #neighborhood {
+    height: 20%;
+  }
+
+  #content {
+    height: 79%;
+  }
+
+  .mainInfo {
+    flex-wrap: wrap;
+  }
+
+  .detail {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #main {
+    flex-wrap: wrap-reverse;
+  }
+
+  #neighborhood,
+  #content {
+    width: 100%;
+  }
+
+  #neighborhood {
+    height: 20%;
+  }
+
+  #content {
+    height: 79%;
+  }
+
+  .mainInfo {
+    flex-wrap: wrap;
+  }
+
+  .detail {
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #main {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
 }
