@@ -13,7 +13,7 @@ function App() {
         <div className="mainInfo">
           <div className="detail">
             <div className="brand">
-              <div>
+              <div className="float-left">
                 <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78">
                   <path
                     d="M 58.874 77.678 L 19.126 77.678 C 8.741 77.678 0.322 69.259 0.322 58.874 L 0.322 19.126 C 0.322 8.741 8.741 0.322 19.126 0.322 L 58.874 0.322 C 69.259 0.322 77.678 8.741 77.678 19.126 L 77.678 58.874 C 77.678 69.259 69.259 77.678 58.874 77.678 Z"
@@ -37,7 +37,7 @@ function App() {
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="float-right">
                 <h1>ebundu</h1>
                 <p>Mejor comunidad</p>
                 <p>beta</p>

@@ -59,11 +59,26 @@ ul li {
 .detail,
 .phone {
   width: 50%;
+  border: 1px solid #fff;
+}
+
+.detail {
+  padding: 5em;
 }
 
 .generalInfo {
   width: 100%;
   height: 10%;
+}
+
+.brand {
+  border: 1px solid #fff;
+  width: 255px;
+  height: 104px;
+}
+
+.brand h1 {
+  font-size: 24px;
 }
 
 /*** FONTS ***/
