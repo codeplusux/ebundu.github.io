@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ebundu.github.io/precache-manifest.baac486a8af1cbebdb6be3dd4622b861.js"
+  "/ebundu.github.io/precache-manifest.fba3666dce436f43b77e3845f8f8d0ec.js"
 );
 
 self.addEventListener('message', (event) => {
