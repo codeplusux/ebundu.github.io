@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/ebundu-landing/static/css/main.121a1680.chunk.css",
-    "main.js": "/ebundu-landing/static/js/main.1edc0e12.chunk.js",
-    "main.js.map": "/ebundu-landing/static/js/main.1edc0e12.chunk.js.map",
+    "main.css": "/ebundu-landing/static/css/main.c75ccf58.chunk.css",
+    "main.js": "/ebundu-landing/static/js/main.5a4d5302.chunk.js",
+    "main.js.map": "/ebundu-landing/static/js/main.5a4d5302.chunk.js.map",
     "runtime-main.js": "/ebundu-landing/static/js/runtime-main.ff8e13e8.js",
     "runtime-main.js.map": "/ebundu-landing/static/js/runtime-main.ff8e13e8.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/ebundu-landing/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.44660e85.chunk.js": "/ebundu-landing/static/js/2.44660e85.chunk.js",
-    "static/js/2.44660e85.chunk.js.map": "/ebundu-landing/static/js/2.44660e85.chunk.js.map",
+    "static/js/2.90f1810a.chunk.js": "/ebundu-landing/static/js/2.90f1810a.chunk.js",
+    "static/js/2.90f1810a.chunk.js.map": "/ebundu-landing/static/js/2.90f1810a.chunk.js.map",
     "index.html": "/ebundu-landing/index.html",
-    "precache-manifest.2fe2584bef94cdbf7874b84693525cfd.js": "/ebundu-landing/precache-manifest.2fe2584bef94cdbf7874b84693525cfd.js",
+    "precache-manifest.86054067d2670d55c02d10efadca2946.js": "/ebundu-landing/precache-manifest.86054067d2670d55c02d10efadca2946.js",
     "service-worker.js": "/ebundu-landing/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/ebundu-landing/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.121a1680.chunk.css.map": "/ebundu-landing/static/css/main.121a1680.chunk.css.map",
-    "static/js/2.44660e85.chunk.js.LICENSE.txt": "/ebundu-landing/static/js/2.44660e85.chunk.js.LICENSE.txt",
+    "static/css/main.c75ccf58.chunk.css.map": "/ebundu-landing/static/css/main.c75ccf58.chunk.css.map",
+    "static/js/2.90f1810a.chunk.js.LICENSE.txt": "/ebundu-landing/static/js/2.90f1810a.chunk.js.LICENSE.txt",
     "static/media/androidBadge.png": "/ebundu-landing/static/media/androidBadge.93425ab0.png",
-    "static/media/appleBadge.png": "/ebundu-landing/static/media/appleBadge.e15e0952.png"
+    "static/media/appleBadge.png": "/ebundu-landing/static/media/appleBadge.e15e0952.png",
+    "static/media/neighborhood.png": "/ebundu-landing/static/media/neighborhood.906a927e.png",
+    "static/media/phone.png": "/ebundu-landing/static/media/phone.e9dbe8f4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ff8e13e8.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.44660e85.chunk.js",
-    "static/css/main.121a1680.chunk.css",
-    "static/js/main.1edc0e12.chunk.js"
+    "static/js/2.90f1810a.chunk.js",
+    "static/css/main.c75ccf58.chunk.css",
+    "static/js/main.5a4d5302.chunk.js"
   ]
 }
