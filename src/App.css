@@ -20,6 +20,12 @@ body {
 
 ul li {
   list-style: none;
+  float: left;
+  padding-right: 1em;
+}
+
+a {
+  display: block;
 }
 
 /*** LAYOUT ***/
@@ -30,11 +36,6 @@ ul li {
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
-}
-
-#neighborhood,
-#content {
-  border: 1px solid rgb(148, 147, 147);
 }
 
 #neighborhood {
@@ -52,24 +53,24 @@ ul li {
 
 .mainInfo {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .detail,
 .phone {
   width: 50%;
-  border: 1px solid #fff;
 }
 
 .detail {
-  padding: 5em;
+  padding: 0em;
 }
 
 .generalInfo {
   width: 100%;
   height: 10%;
+  padding-left: 9em;
 }
 
 .brand {
@@ -78,12 +79,12 @@ ul li {
 }
 
 .brand .float-left {
-  padding-left: 1rem;
+  padding-left: 0rem;
   padding-top: 0.8rem;
 }
 
 .brand .float-right {
-  padding-right: 1.5rem;
+  padding-right: 2.4rem;
   padding-top: 1rem;
 }
 
@@ -91,16 +92,33 @@ ul li {
   font-size: 24px;
 }
 
-.mt8 {
+.tagline {
   margin-top: -8px;
+  opacity: 0.5;
 }
 
-.mt18 {
+.beta {
   margin-top: -19px;
+  font-weight: bold;
+}
+
+.phone div {
+  width: 70%;
+  padding: 6em 3em 3em 3em;
+}
+
+.invite {
+  padding-top: 2em;
+  font-size: 2em;
 }
 
 .stores li a {
-  width: 130px;
+  width: 8em;
+}
+
+.instructions {
+  padding-top: 1em;
+  font-size: 1.2em;
 }
 
 /*** FONTS ***/
@@ -115,45 +133,72 @@ h2 {
 
 @media (max-width: 575.98px) {
   #main {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
 
-  #neighborhood,
   #content {
     width: 100%;
+    height: 100%;
   }
 
   #neighborhood {
-    height: 20%;
+    display: none;
   }
-
-  #content {
-    height: 79%;
-  }
-
   .mainInfo {
     flex-wrap: wrap;
+    height: auto;
   }
 
   .detail,
   .phone {
     width: 100%;
   }
+
+  .detail {
+    padding: 1em 2em 0em 2em;
+  }
+
+  .invite {
+    padding-top: 1em;
+    font-size: 1.4em;
+  }
+
+  .instructions {
+    font-size: 1em;
+  }
+
+  .generalInfo {
+    padding: 0;
+    text-align: center;
+  }
+
+  .stores li a {
+    width: 9em;
+  }
+
+  ul li {
+    margin-top: 1em;
+  }
+
+  .phone div {
+    width: 75%;
+    padding: 2em 0em 0em 0em;
+    margin: 0 auto;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   #main {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
 
-  #neighborhood,
   #content {
     width: 100%;
   }
 
   #neighborhood {
-    height: 20%;
+    display: none;
   }
 
   #content {
@@ -162,6 +207,7 @@ h2 {
 
   .mainInfo {
     flex-wrap: wrap;
+    height: auto;
   }
 
   .detail,
@@ -173,16 +219,15 @@ h2 {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   #main {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
 
-  #neighborhood,
   #content {
     width: 100%;
   }
 
   #neighborhood {
-    height: 20%;
+    display: none;
   }
 
   #content {
@@ -191,11 +236,30 @@ h2 {
 
   .mainInfo {
     flex-wrap: wrap;
+    height: auto;
   }
 
   .detail,
   .phone {
     width: 100%;
+  }
+
+  .detail {
+    padding: 3em 6em 0em 6em;
+  }
+
+  .invite {
+    padding-top: 1em;
+  }
+
+  .stores li a {
+    width: 10em;
+  }
+
+  .phone div {
+    width: 54%;
+    padding: 3em 0em 0em 0em;
+    margin: 0 auto;
   }
 }
 
@@ -208,4 +272,28 @@ h2 {
 
 /* Extra large devices */
 @media (min-width: 1200px) {
+  .detail {
+    padding: 8em 0em 0em 6em;
+  }
+
+  .invite {
+    padding-top: 1em;
+  }
+
+  .phone div {
+    width: 80%;
+    padding: 5em 3em 3em 3em;
+  }
+
+  .instructions {
+    padding-top: 3em;
+  }
+
+  .stores {
+    margin-top: 2em;
+  }
+
+  .stores li a {
+    width: 9em;
+  }
 }

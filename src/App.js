@@ -3,12 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import AppleBadge from "./i/appleBadge.png";
 import AndroidBadge from "./i/androidBadge.png";
-// import Phone from "./i/phone.png";
+import Phone from "./i/phone.png";
+import Neighborhood from "./i/neighborhood.png";
 
 function App() {
   return (
     <div id="main">
-      <div id="neighborhood"></div>
+      <div id="neighborhood">
+        <img src={Neighborhood} alt="App store" class="img-fluid" />
+      </div>
       <div id="content">
         <div className="mainInfo">
           <div className="detail">
@@ -39,12 +42,18 @@ function App() {
               </div>
               <div className="float-right">
                 <h1>ebundu</h1>
-                <p className="mt8">Mejor comunidad</p>
-                <p className="mt18">beta</p>
+                <p className="tagline">Mejor comunidad</p>
+                <p className="beta">beta</p>
               </div>
             </div>
-            <h2>Comparte actualizaciones con l@s vecin@s de tu comunidad.</h2>
-            <p>Descarga ya la aplicación desde tu tienda favorita.</p>
+            <h2 className="invite">
+              Una mejor comunidad la hacemos entre tod@s. Súmate y participa con
+              los vecinos de tu barrio.
+            </h2>
+            <p className="instructions">
+              Descarga desde tu tienda favorita y crea tu cuenta. Envíanos tus
+              dudas y sugerencias.
+            </p>
             <ul className="stores">
               <li>
                 <a
@@ -52,21 +61,31 @@ function App() {
                   title="Descarga desde App store"
                   target="blank"
                 >
-                  <img src={AppleBadge} alt="App store" />
+                  <img src={AppleBadge} alt="App store" class="img-fluid" />
                 </a>
               </li>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.ebundu.ebundu_resident"
-                title="Descarga desde App store"
-                target="blank"
-              >
-                <img src={AndroidBadge} alt="Descarga desde Play store" />
-              </a>
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.ebundu.ebundu_resident"
+                  title="Descarga desde App store"
+                  target="blank"
+                >
+                  <img
+                    src={AndroidBadge}
+                    alt="Descarga desde Play store"
+                    class="img-fluid"
+                  />
+                </a>
+              </li>
             </ul>
           </div>
-          <div className="phone"></div>
+          <div className="phone">
+            <div>
+              <img src={Phone} alt="App store" class="img-fluid" />
+            </div>
+          </div>
         </div>
-        <div className="generalInfo">Conoce más de nosotros</div>
+        {/*<div className="generalInfo">Conoce más de nosotros</div>*/}
       </div>
     </div>
   );
