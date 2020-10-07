@@ -10,7 +10,7 @@ function App() {
   return (
     <div id="main">
       <div id="neighborhood">
-        <img src={Neighborhood} alt="App store" class="img-fluid" />
+        <img src={Neighborhood} alt="App store" className="img-fluid" />
       </div>
       <div id="content">
         <div className="mainInfo">
@@ -61,7 +61,7 @@ function App() {
                   title="Descarga desde App store"
                   target="blank"
                 >
-                  <img src={AppleBadge} alt="App store" class="img-fluid" />
+                  <img src={AppleBadge} alt="App store" className="img-fluid" />
                 </a>
               </li>
               <li>
@@ -81,7 +81,7 @@ function App() {
           </div>
           <div className="phone">
             <div>
-              <img src={Phone} alt="App store" class="img-fluid" />
+              <img src={Phone} alt="App store" className="img-fluid" />
             </div>
           </div>
         </div>
