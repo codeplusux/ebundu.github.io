@@ -73,7 +73,7 @@ function App() {
                   <img
                     src={AndroidBadge}
                     alt="Descarga desde Play store"
-                    className="img-fluid"
+                    class="img-fluid"
                   />
                 </a>
               </li>
